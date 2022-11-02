@@ -1,0 +1,22 @@
+const cliente = { // dados cliente
+    nome:"Lucas",
+    idade:22,
+    cpf:"123456789",
+    email:"lucas@email.com",
+    conta:"5555555878"
+
+} 
+
+console.log(cliente);
+
+// inserido mais um dados na opçoes de dados
+cliente.fone = "9858988888" // adicionando mais uma opção no campo de dados 
+cliente.endereco = "rua tal tal" 
+
+console.log(cliente);
+
+// alterando mais um dados na opçoes de dados
+cliente.fone = "888885555"
+cliente.endereco = "rua tal tal coisa"
+
+console.log(cliente);
