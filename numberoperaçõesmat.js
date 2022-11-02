@@ -1,0 +1,31 @@
+    ////////////////////////////////////////////////////////////////////
+    ////////////////////NUMBER CONTAS////////////////////////////////////
+
+    // variaveis tipos numeros
+    // operacao matematica
+    const { Console } = require("console");
+
+    const numero1 = 100;
+    const numero2 = 200;
+
+
+    //funcao
+    const operacaoMatematica = numero1 - numero2;
+
+    //gerar codigo
+    console.log(operacaoMatematica)
+
+
+    ////////////////////////////////////////////////////////////////////
+
+    // ponto flutuante
+    const numeroPontoFlutuante = 3.3;
+    const numeroPontoSemZero = .5;
+
+    //funcao
+    const novaOpercao = numero1 / numeroPontoFlutuante;
+    //gerar codigo
+    console.log(novaOpercao);
+
+
+
